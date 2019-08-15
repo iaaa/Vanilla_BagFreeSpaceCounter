@@ -6,7 +6,7 @@ local numFreeSlots = -1
 local BagLabel = MainMenuBarBackpackButton:CreateFontString( "BagFreeSlotLabel", "OVERLAY", "GameTooltipText" )
 BagLabel:SetFont( "Fonts\\FRIZQT__.TTF", 12, "THINOUTLINE" )
 BagLabel:SetPoint( "BOTTOM", 1, 4 )
-BagLabel:SetTextColor( 1, 0, 1 )
+BagLabel:SetTextColor( 1, 1, 1 )
 
 
 local function CountFreeSlots()
