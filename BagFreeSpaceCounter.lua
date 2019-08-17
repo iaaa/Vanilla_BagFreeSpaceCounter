@@ -4,8 +4,10 @@ local NORMAL_BAG = 0	-- Non-profession bag type ID
 local numFreeSlots = -1
 
 local BagLabel = MainMenuBarBackpackButton:CreateFontString( "BagFreeSlotLabel", "OVERLAY", "GameTooltipText" )
-BagLabel:SetFont( "Fonts\\FRIZQT__.TTF", 12, "THINOUTLINE" )
-BagLabel:SetPoint( "BOTTOM", 1, 4 )
+--BagLabel:SetFont( "Fonts\\FRIZQT__.TTF", 12, "THINOUTLINE" )
+--BagLabel:SetFont( "Fonts\\MORPHEUS.TTF", 12, "THINOUTLINE" )
+BagLabel:SetFont( "Fonts\\ARIALN.TTF", 14, "THINOUTLINE" )
+BagLabel:SetPoint( "BOTTOM", 0, 3 )
 BagLabel:SetTextColor( 1, 1, 1 )
 
 
@@ -35,7 +37,7 @@ local function BagChanged( self, event, bagID )
 	-- BAG_UPDATE: arg1 is the ID of the modified container
 	-- Ignore the bank containers
 	if bagID < 0 or bagID > NUM_BAG_SLOTS then
-		print( "Bank container modified" )
+	--	print( "Bank container modified" )
 		return
 	end	
 	
