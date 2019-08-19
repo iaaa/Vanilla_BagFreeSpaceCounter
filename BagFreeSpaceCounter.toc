@@ -1,5 +1,5 @@
 ## Interface: 11302
-## Version: 1.0
+## Version: 1.0.1
 ## Title: Bag Free Space Counter
 ## Notes: Displays the amount of unused inventory space
 ## Author: Bytespire
