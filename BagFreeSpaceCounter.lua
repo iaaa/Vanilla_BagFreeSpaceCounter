@@ -59,7 +59,7 @@ local function Init()
 
 	frame:SetScript( "OnEvent", BagChanged )
 	frame:RegisterEvent( "BAG_UPDATE" )
-	frame:RegisterEvent( "UNIT_INVENTORY_CHANGED" )	-- necessary?
+	--frame:RegisterEvent( "UNIT_INVENTORY_CHANGED" )	-- necessary?
 	frame:RegisterEvent( "PLAYER_LOGIN" )
 end
 
