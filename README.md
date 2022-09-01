@@ -1,5 +1,5 @@
 # BagFreeSpaceCounter
-**A bag addon for World of Warcraft: Classic**
+**A bag addon for World of Warcraft: Classic (vanilla, tbc and wotlk)**
 
 Displays the amount of unused inventory space over the backpack button (similar to retail)
 
