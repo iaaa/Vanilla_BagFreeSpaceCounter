@@ -15,7 +15,7 @@ local function CountFreeSlots()
 
 	local totalFreeSlots = 0
 	for i=0, NUM_BAG_SLOTS do
-		local freeCount, bagType = GetContainerNumFreeSlots( i )
+		local freeCount, bagType = C_Container.GetContainerNumFreeSlots( i )
 		if bagType == NORMAL_BAG then
 			totalFreeSlots = totalFreeSlots + freeCount
 		end
